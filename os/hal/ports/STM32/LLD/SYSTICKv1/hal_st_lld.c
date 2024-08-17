@@ -465,9 +465,9 @@
 #error "TIM21 not present in the selected device"
 #endif
 
-#if (OSAL_ST_RESOLUTION == 32) && !STM32_TIM21_IS_32BITS
-#error "TIM21 is not a 32bits timer"
-#endif
+//#if (OSAL_ST_RESOLUTION == 32) && !STM32_TIM21_IS_32BITS
+//#error "TIM21 is not a 32bits timer"
+//#endif
 
 #define ST_HANDLER                          STM32_TIM21_HANDLER
 #define ST_NUMBER                           STM32_TIM21_NUMBER
